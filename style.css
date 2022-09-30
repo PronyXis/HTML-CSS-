@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: rgb(247, 247, 235);
+}
+
+.wrapper {
+  
+}
+
+
+.card {
+  width: 350px;
+  max-height: max-content;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  
+  
+}
+
+.product-image {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover; 
+}
+
+.card-main {
+  text-align: left;
+  padding: 2em 1.3em;
+  
+  
+  
+}
+
+.product {
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  color:  hsl(228, 12%, 48%);
+  padding-bottom: 10px;
+  letter-spacing: 4px;
+  font-family: 'Fraunces', serif;
+}
+
+.product-name {
+  
+  line-height: 1.1;
+  font-weight: bold; 
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.product-description {
+  padding-bottom: 20px;
+  color:  hsl(228, 12%, 48%);
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-family: 'Fraunces', serif;
+}
+
+.price  {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  padding-bottom: 10px;
+  color: green;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.discount {
+  position: absolute;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  bottom: 20px;
+  left: 150px;
+}
+
+.add-card {
+  display: block;
+  margin: 0.5em auto;
+  min-width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border: none;
+  
+}
+
+.basket {
+  max-width: 10px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
